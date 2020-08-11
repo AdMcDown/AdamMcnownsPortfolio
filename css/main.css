@@ -1,0 +1,72 @@
+body {
+    background-image: url("../img/main-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/******************************/
+/*         Home Page          */
+/******************************/
+#home-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#main-img {
+    width: 250px;
+    height: 250px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+main h2 {
+    color: white;
+}
+
+/******************************/
+/*       Home Page End        */
+/******************************/
+
+/******************************/
+/*         Navigation         */
+/******************************/
+nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    align-content: center;
+}
+
+li a {
+    text-decoration: none;
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name {
+    float: left;
+}
+
+.home {
+    font-family: 'Acme', sans-serif;
+}
+
+li a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+
+/******************************/
+/*       Navigation End       */
+/******************************/
