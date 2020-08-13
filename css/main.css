@@ -11,42 +11,82 @@ body {
 #home-main {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 #home-intro {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: lightblue;
-    border: 2px dashed yellow;
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    /* background-image: url("../img/pad.jpg"); */
+    background-color: white;
+    border: 4px double black;
+    border-spacing: 10px;
+    border-width: 10px;
     border-radius: 50px;
+    margin: 5px;
 }
 
 #main-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid white;
+    border: 5px solid black;
     border-radius: 50%;
     margin-top: -100px;
 }
 
 #home-main h2 {
-    color: white;
-    text-align: center;
-    font-family: 'Acme', sans-serif;
-    font-size: 50px;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-#home-main p {
-    background-color: silver;
-    border: 2px solid red;
-    border-radius: 50px;
-    margin: 20px;
-    padding: 20px;
-    width: 700px;
-    height: 150px;
+#mName {
+    font-size: 50px;
+    font-family: 'Acme', sans-serif;
+}
+
+#intro-h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration-line: overline underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+    text-underline-position: under;
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+#home-main h4 {
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#home-main h3 {
+    padding-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: x-large;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+}
+
+#home-bar {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
 }
 
 /******************************/
