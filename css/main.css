@@ -17,9 +17,10 @@ body {
 
 #home-intro {
     display: block;
+    background-image: url("../img/pad.jpg");
+    background-size: cover;
     margin-left: auto;
     margin-right: auto;
-
     text-align: center;
     background-color: white;
     border: 4px double black;
@@ -66,9 +67,10 @@ body {
 }
 
 #home-main h4 {
-    background-color: greenyellow;
+    background-color: gold;
     border-radius: 10px;
     padding: 10px;
+    color: black;
 }
 
 #home-main h3 {
@@ -76,6 +78,7 @@ body {
     margin-right: 5px;
     margin-left: 5px;
     font-size: x-large;
+    color: black;
 }
 
 #links {
@@ -86,12 +89,18 @@ body {
 #home-bar {
     color: black;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
 }
 
 #links a {
-    margin-left: 40px;
-    margin-right: 40px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/sticky-note.png");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 #links h1 {
@@ -103,7 +112,7 @@ body {
     width: 40px;
     line-height: 40px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 5px;
     background-color: grey;
     border-radius: 50%;
@@ -112,6 +121,15 @@ body {
 
 #links p {
     margin: 5px;
+}
+
+#links a:hover h1 {
+    color: black;
+    background-color: lightgreen;
+}
+
+#links a:hover p {
+    text-decoration: underline;
 }
 
 /******************************/
