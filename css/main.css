@@ -7,136 +7,6 @@ body {
 }
 
 /******************************/
-/*         Home Page          */
-/******************************/
-#home-main {
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-}
-
-#home-intro {
-    display: block;
-    background-image: url("../img/pad.jpg");
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-color: white;
-    border: 4px double black;
-    border-width: 10px;
-    border-radius: 50px;
-    margin: 5px;
-}
-
-#main-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 5px solid black;
-    border-radius: 50%;
-    margin-top: -100px;
-}
-
-#home-main h2 {
-    color: black;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#mName {
-    font-size: 50px;
-    font-family: 'Noto Sans JP', sans-serif;
-    /* font-family: "Brush Script MT", Brush Script Std, cursive; */
-}
-
-#intro-h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-decoration-line: overline underline;
-    text-decoration-style: double;
-    text-decoration-color: black;
-    text-underline-position: under;
-    margin-top: 0px;
-}
-
-#skills {
-    display: flex;
-    justify-content: center;
-    margin-top: -25px;
-}
-
-#home-main h4 {
-    background-color: gold;
-    border-radius: 10px;
-    padding: 10px;
-    color: black;
-}
-
-#home-main h3 {
-    padding-top: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
-    font-size: x-large;
-    color: black;
-}
-
-#links {
-    display: flex;
-    justify-content: center;
-}
-
-#home-bar {
-    color: black;
-    text-decoration: none;
-    padding: 20px;
-}
-
-#links a {
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-image: url("../img/sticky-note.png");
-    background-size: cover;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-#links h1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "URW Chancery L", cursive;
-    color: white;
-    width: 40px;
-    line-height: 40px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    background-color: grey;
-    border-radius: 50%;
-
-}
-
-#links p {
-    margin: 5px;
-}
-
-#links a:hover h1 {
-    color: black;
-    background-color: lightgreen;
-}
-
-#links a:hover p {
-    text-decoration: underline;
-}
-
-/******************************/
-/*       Home Page End        */
-/******************************/
-
-/******************************/
 /*         Navigation         */
 /******************************/
 nav {
@@ -144,14 +14,14 @@ nav {
     overflow: hidden;
 }
 
-ul {
+nav ul {
     padding: 0;
     margin: 0 auto;
     list-style-type: none;
     align-content: center;
 }
 
-li a {
+nav a {
     text-decoration: none;
     float: right;
     color: white;
@@ -160,15 +30,15 @@ li a {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.name {
+nav .name {
     float: left;
 }
 
-.home {
+nav .home {
     font-family: 'Acme', sans-serif;
 }
 
-li a:hover {
+nav li a:hover {
     background-color: lightgreen;
     color: black;
 }
