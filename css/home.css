@@ -1,6 +1,12 @@
 /******************************/
 /*         Home Page          */
 /******************************/
+body {
+    background-image: url("../img/main-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #home-main {
     display: flex;
     justify-content: center;

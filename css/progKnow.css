@@ -20,6 +20,8 @@ section {
     color: black;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 125px;
 }
 
 #table-contents h2 {
@@ -55,4 +57,32 @@ section {
 #table-contents a:hover {
     text-decoration: underline;
     color: blue;
+}
+
+article {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 650px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url("../img/pad.jpg");
+}
+
+article h2 {
+    text-align: center;
+}
+
+#toTop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: black;
+    background-color: orange;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
 }
