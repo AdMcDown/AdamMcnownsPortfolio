@@ -13,6 +13,8 @@ section {
     width: 1000px;
 }
 
+
+/* Table of contents styling */
 #table-contents {
     text-align: left;
     border: 2px solid black;
@@ -59,26 +61,43 @@ section {
     color: blue;
 }
 
+/* knowledge items styling */
+span {
+    height: 25px;
+}
+
+article img {
+    float: left;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
 article {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 650px;
-    width: 1000px;
-    margin-top: 50px;
+    width: 1150px;
+    margin-top: 25px;
     margin-bottom: 50px;
-    background-image: url("../img/pad.jpg");
+    border-radius: 100px;
+    color: black;
+    background-color: #F0E2A3;
 }
 
 article h2 {
+    margin-right: 100px;
     text-align: center;
+    text-decoration: underline;
 }
 
+
+/* css for scroll button */
 #toTop {
     display: none;
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    right: 25px;
     color: black;
     background-color: orange;
     border-radius: 10px;
