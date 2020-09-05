@@ -11,6 +11,9 @@ main {
 section {
     align-self: center;
     width: 1000px;
+    height: auto;
+    background-color: blanchedalmond;
+    color: black;
 }
 
 
@@ -18,8 +21,6 @@ section {
 #table-contents {
     text-align: left;
     border: 2px solid black;
-    background-color: blanchedalmond;
-    color: black;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 25px;
@@ -73,9 +74,7 @@ article img {
 }
 
 article {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    align-self: center;
     height: 650px;
     width: 1150px;
     margin-top: 25px;
@@ -85,12 +84,75 @@ article {
     background-color: #F0E2A3;
 }
 
-article h2 {
-    margin-right: 100px;
+h2 {
     text-align: center;
     text-decoration: underline;
 }
 
+article h2 {
+    margin-right: 100px;
+}
+
+#courses {
+    align-self: center;
+    margin-top: 25px;
+}
+
+#coursesComp {
+    margin: 0;
+    padding: 5px;
+    width: 1150px;
+}
+
+table {
+    width: 100%;
+    max-width: 1100px;
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+th {
+    height: 50px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+td li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+td p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#extensive {
+    width: 75%;
+    color: green;
+    background-color: green;
+}
+
+#minimaul {
+    width: 25%;
+    color: orange;
+    background-color: orange;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 /* css for scroll button */
 #toTop {
